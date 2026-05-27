@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="0.286">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2026-05-27T03:11:33" time="0.115" tests="6">
+    <testcase classname=" obtemRaizAproximada" name=" obtemRaizAproximada" time="0.002">
+    </testcase>
+    <testcase classname=" obtemRaizAproximada" name=" obtemRaizAproximada" time="0.001">
+    </testcase>
+    <testcase classname=" obtemRaizAproximada" name=" obtemRaizAproximada" time="0">
+    </testcase>
+    <testcase classname=" checaSePrimo" name=" checaSePrimo" time="0.001">
+    </testcase>
+    <testcase classname=" checaSePrimo" name=" checaSePrimo" time="0.001">
+    </testcase>
+    <testcase classname=" checaSePrimo" name=" checaSePrimo" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
