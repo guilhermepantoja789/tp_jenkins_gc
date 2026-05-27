@@ -17,6 +17,4 @@ export function checaSePrimo(numero: number): boolean {
         i++;
     }
     return true;
-}
-
 
