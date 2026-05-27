@@ -23,3 +23,4 @@ test("checaSePrimo", () => {
 test("checaSePrimo", () => {
     expect(checaSePrimo(4)).toBe(false);
 });
+

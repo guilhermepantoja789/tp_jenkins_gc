@@ -5,3 +5,4 @@ module.exports = {
   coverageReporters: ['cobertura', 'text'],
   reporters: ['default', 'jest-junit']
 };
+
