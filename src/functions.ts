@@ -1,7 +1,7 @@
 export function obtemRaizAproximada(numero: number): number {
     let i: number = 0;
     for (i; i * i <= numero; i++);
-    return i - 1;
+    return i;
 }
 
 export function checaSePrimo(numero: number): boolean {
