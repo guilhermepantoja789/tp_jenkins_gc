@@ -3,7 +3,7 @@ export function obtemRaizAproximada(numero: number): number {
     for (i; i * i <= numero; i++);
     return i - 1;
 }
-
+}}}
 export function checaSePrimo(numero: number): boolean {
     if (numero <= 1) return false;
     if (numero <= 3) return true; 
