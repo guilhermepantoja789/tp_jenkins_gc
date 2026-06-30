@@ -2,14 +2,17 @@ services:
   jenkins:
     build: .
     container_name: jenkins_lab
+    user: root
     restart: unless-stopped
     ports:
       - "8080:8080"
       - "50000:50000"
     volumes:
-      - jenkins_data:/var/jenkins_home
+      - jenkins_lab_data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
 
 volumes:
-  jenkins_data:
+  jenkins_lab_data:
+    name: jenkins_lab_data
 
 

@@ -1,3 +1,7 @@
+jenkins_lab_data
+
+jenkins_home/
+
 node_modules
 dist
 coverage
